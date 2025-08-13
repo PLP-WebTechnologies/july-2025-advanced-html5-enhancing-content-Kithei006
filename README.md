@@ -38,7 +38,115 @@ Submit a single HTML file named `enhanced-form.html`. It should include:
 * Proper and meaningful use of lists, tables, and media.
 * Clarity and accessibility of form structure.
 * Correct use of form elements and attributes.
-* Effective application of native HTML5 validation.
+* Effective application of native HTML5 validat[Uploading enhanced-form.html…]()
+ion.
 * Clean, well-indented, and maintainable HTML code.
 
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Week 2 Assignment </title>
+  </head>
+<body>
+  <h1> Ordered Lists</h1>
+  <ol>
+    <li> Monday</li>
+    <li> Tuesday</li>
+    <li> Wednesday</li>
+  </ol>
+  <h2> Un-ordered lists</h2>
+  <ul> 
+    <li> Thursday</li>
+    <li> Friday</li>
+  </ul>
+  <h2> Definition Lists</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language- a language for creating webpages</dd>
+  </dl>
+  <h2> Nested Lists</h2>
+  <ol>
+    <li> Frontend languages</li>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+    <li> Backend Languages</li>
+    <ul>
+      <li>Ruby</li>
+      <li>Python</li>
+      <li>Java</li>
+    </ul>
+  </ol>
+  <h2>Images</h2>  
+  <img src="https://images.pexels.com/photos/33245188/pexels-photo-33245188.jpeg?cs=srgb&dl=pexels-anchau-1663967297-33245188.jpg&fm=jpg&_gl=1*11yzgwe*_ga*MTYyMzQ3MjA5MS4xNzU0MjkzMjE0*_ga_8JE65Q40S6*czE3NTQyOTMyMTMkbzEkZzEkdDE3NTQyOTM0NjEkajU5JGwwJGgw"
+  alt="Picture of a woman"
+  width="500"
+  height="300" 
+  <h2> Tables</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>Gender</th>
+        <th>country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Edith</td>
+        <td>female</td>
+        <td>Kenya</td>
+      </tr>
+      <tr>
+        <td>Onyancha</td>
+        <td>male</td>
+        <td>Uganda</td>
+      </tr>
+      <tr>
+        <td>Shaz</td>
+        <td>female</td>
+        <td>Rwanda</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Embedding Videos & audio</h2>
+  <video width="500" height="300" controls>
+    <source src="https://www.pexels.com/video/person-shaking-the-glass-of-wine-5045649/" type="video/mp4">
+    Your browser does not support the videos
+  </video>
+  <audio>
+    <source src="c:\Users\HP\OneDrive\Desktop\songs" type=" audio/mpeg">
+    Your Browser does not support audio playback
+  </audio>
+  <h2>Forms</h2>
+  <form action="location" methods="">
+    <label for="Name"> Name: </label>
+    <input type=" text" id="Name" placeholder=" enter your name Here...">
+    <label for="email">email:</label>
+    <input type=" email" id="email" placeholder=" enter your email Here...">
+    <br><br/>
+    <label for="age">age:</label>
+    <input type=" number" name="age" id="age" max="30" min="18" placeholder=" enter your age Here...">
+    <br><br/>
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="dob" id="dob"> 
+    <br><br/>
+    <label for="Gender">Gender:</label>
+    <input type=" radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br /><br />
+    <label for="cv">Upload CV</label>
+    <input type="file" name="cv" id="cv">
+    <br><br/>
+    <label for="bio">Bio:</label>
+    <textarea name="bio" id="bio" cols="30" rows=" 10" placeholder="Write your bio here..."></textarea>
+    <br /><br />
+    <input type="Submit">value="Submit">
+    
+
+  </form>
+</body>
+</html>
 
